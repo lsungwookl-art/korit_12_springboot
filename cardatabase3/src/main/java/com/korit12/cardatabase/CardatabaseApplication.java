@@ -38,6 +38,5 @@ public class CardatabaseApplication implements CommandLineRunner {
 
 		appUserRepository.save(new AppUser("user", "$2a$12$XfU9Hy74EcVgDu40im2u8ODJKBZJ1d8AMyUUmksL.soINZEZ6gVmW","User"));
 		appUserRepository.save(new AppUser("admin", "$2a$12$/NncngirZRVXja5nanFSD.OgNIw2tQrMev9ccbR7xmmdcSwggvcM2", "ADMIN"));
-
 	}
 }
